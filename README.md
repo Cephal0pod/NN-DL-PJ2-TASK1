@@ -99,5 +99,5 @@ python predict.py
 ## Resources
 
 - **Google Drive (Models)**  
-  [Download Trained Models](https://drive.google.com/drive/folders/YOUR_DRIVE_LINK_HERE)
+  [Download Trained Models](https://drive.google.com/drive/folders/1mEz_xYETe3QokT1kfWuzYMuxXJSNfq5O?usp=sharing)
 
