@@ -25,14 +25,8 @@ project/
 ├── train.py                  # Training logic with metrics output
 ├── evaluate.py               # Model evaluation logic
 ├── main.py                   # Entry point for training + visualization
-├── show_predictions.py       # Predict and visualize sample images
-├── compare_activations.py    # Loss/accuracy comparison across activations
-├── compare_optimizers.py     # Loss/accuracy comparison across optimizers
-├── training_metrics.png      # Training curve (single run)
-├── loss_acc_compare_optimizer.png  # Optimizer comparison curve
-├── loss_acc_compare_activation.png # Activation comparison curve
-├── prediction_example.png    # Sample predictions on test set
-├── cifar10_model_adam_relu.pth     # Sample trained model checkpoint
+├── predict.py                # Predict and visualize sample images
+├── compare.py    # Loss/accuracy comparison across activations and optimizers
 └── README.md
 ```
 
@@ -63,7 +57,7 @@ python main.py --epochs 20 --optimizer adam --activation relu
 ### 3. Compare activation functions
 
 ```bash
-python compare_activations.py
+python compare.py
 ```
 
 ### 4. Evaluate saved model
@@ -75,7 +69,7 @@ python evaluate_model.py --file cifar10_model_adam_relu.pth --activation relu
 ### 5. Visualize sample predictions
 
 ```bash
-python show_predictions.py
+python predict.py
 ```
 
 ---
@@ -104,11 +98,8 @@ python show_predictions.py
 
 ## 🔗 Resources
 
-- 📁 **Google Drive (Models + Curves)**  
-  [Download Trained Models and Results](https://drive.google.com/drive/folders/YOUR_DRIVE_LINK_HERE)
-
-- 💻 **GitHub Repository**  
-  [https://github.com/YOUR_USERNAME/cifar10-project2](https://github.com/YOUR_USERNAME/cifar10-project2)
+- 📁 **Google Drive (Models)**  
+  [Download Trained Models](https://drive.google.com/drive/folders/YOUR_DRIVE_LINK_HERE)
 
 > Replace the above placeholders with your actual links!
 
