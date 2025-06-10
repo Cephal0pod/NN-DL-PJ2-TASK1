@@ -4,7 +4,7 @@ This project implements and analyzes convolutional neural networks (CNNs) traine
 
 ---
 
-## 📌 Project Objectives
+## Project Objectives
 
 - Build a CNN model from scratch with key components: Conv2D, Pooling, Fully Connected layers, Activations.
 - Incorporate advanced modules: Batch Normalization, Dropout.
@@ -15,7 +15,7 @@ This project implements and analyzes convolutional neural networks (CNNs) traine
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 project/
@@ -32,7 +32,7 @@ project/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Install dependencies
 
@@ -85,27 +85,19 @@ python predict.py
 
 ---
 
-## 🖼️ Visualizations
+## Visualizations
 
-### ✅ Training Curve Comparison
+### Training Curve Comparison
 - ![Optimizer](loss_acc_compare_optimizer.png)
 - ![Activation](loss_acc_compare_activation.png)
 
-### ✅ Sample Predictions
+### Sample Predictions
 - ![Prediction Example](prediction_example.png)
 
 ---
 
-## 🔗 Resources
+## Resources
 
-- 📁 **Google Drive (Models)**  
+- **Google Drive (Models)**  
   [Download Trained Models](https://drive.google.com/drive/folders/YOUR_DRIVE_LINK_HERE)
 
-> Replace the above placeholders with your actual links!
-
----
-
-## 📌 Author
-**Your Name**  
-Student ID: 2025XXXX  
-Neural Networks and Deep Learning, June 2025
